@@ -10,13 +10,16 @@
 </head>
 <body>
 
+  <audio id="clickSound"><source src="click.mp3" type="audio/mpeg"> </audio>
+  <audio id="resetSound"><source src="reset.mp3" type="audio/mpeg"> </audio>
+  <audio id="myAudio"><source src="refresh.mp3" type="audio/mpeg"> </audio>
+
     <header class="header">
         <img src="tomi.jpg" alt="Logo" class="logo__header">
-        <span>POMOBUDDY</span>
+        <h1>POMOBUDDY</h1>
         <nav class="nav_menu not-active">
-            <a href="#home" class="active">What is Pomodoro Timer?</a>
-            <a href="#abilities">What I do</a>
-            <a href="#skills">Skills</a>
+          <button id="pomoTimer" class="pomoTimer">WHAT IS POMODORO TIMER</button>
+          <button id="pomoRelax" class="pomoTimer">REFRESH YOURSELF</button>
         </nav>
     </header>
 
@@ -37,6 +40,7 @@
           </div>
         </div>
       </div>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="index.js"></script>
 </body>
 </html>

@@ -31,30 +31,22 @@
     width: 60px;
 }
 
-nav.nav_menu.active {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: absolute;
-    left: 0;
-    top: 6.3rem;
-    width: 100%;
-    height: auto;
-    background-color: #d9d9db;
-    box-shadow: 0 10px 16px -6px rgb(5 5 5 / 30%), 0 25px 10px -24px rgb(5 5 5 / 10%);
-    text-decoration: none;
+h1 {
+  font-family: 'Arial';
+  color: #3e3f43; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 }
 
 nav.nav_menu.active a {
     padding: 2rem;
-    font-family: 'Arial Rounded';
+    font-family: 'Arial';
     letter-spacing: .1rem;
     text-decoration: none;
-    color: black;
+    color:#3e3f43;
     font-size: 2rem;
     width: 100%;
     text-align: center;
+    text-decoration: none;
 }
 
   .container {
@@ -68,6 +60,7 @@ nav.nav_menu.active a {
     padding: 4em 2em;
     border-radius: 0.5em;
   }
+
   button {
     border: none;
     outline: none;
@@ -79,6 +72,13 @@ nav.nav_menu.active a {
     justify-content: center;
   }
   .btn {
+    padding: 1em 2em;
+    border-radius: 0.5em;
+    background-color: #3e3f43;
+    color: #a9a7a7;
+  }
+
+  .pomoTimer {
     padding: 1em 2em;
     border-radius: 0.5em;
     background-color: #3e3f43;
@@ -123,4 +123,21 @@ nav.nav_menu.active a {
   }
   .show {
     display: block;
+  }
+  @media screen and (max-width: 600px) {
+    .nav_menu #pomoRelax {
+      display: none; 
+    }
+    .nav_menu #pomoTimer {
+      padding: 7px;
+      font-size: 10px;
+      display: flex;
+   
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .nav_menu #pomoRelax {
+      display: none; 
+    }
   }
