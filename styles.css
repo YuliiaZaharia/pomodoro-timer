@@ -14,6 +14,7 @@
 
   .header {
     background-color: #d9d9db;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     padding: .8rem 3rem;
     display: flex;
     justify-content: space-between;
@@ -33,7 +34,7 @@
 
 h1 {
   font-family: 'Arial';
-  color: #3e3f43; 
+  color:  #ba4849;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 }
 
@@ -51,6 +52,7 @@ nav.nav_menu.active a {
 
   .container {
     background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     width: min(90%, 600px);
     height: 50%;
     position: absolute;
@@ -76,6 +78,7 @@ nav.nav_menu.active a {
     border-radius: 0.5em;
     background-color: #3e3f43;
     color: #a9a7a7;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
   }
 
   .pomoTimer {
@@ -83,6 +86,7 @@ nav.nav_menu.active a {
     border-radius: 0.5em;
     background-color: #3e3f43;
     color: #a9a7a7;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
   }
   .btn-focus {
     background-color: #ba4849;
@@ -104,13 +108,16 @@ nav.nav_menu.active a {
     justify-content: center;
     gap: 2em;
   }
+
   #btn-start,
   #btn-pause {
     padding: 1em 2em;
     border-radius: 0.5em;
     cursor: pointer;
     background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
   }
+
   #btn-reset {
     background-color: transparent;
     border: none;

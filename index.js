@@ -168,3 +168,7 @@ startBtn.addEventListener("click", () => {
     }, 1000);
   }
 });
+
+gsap.from("h1", { opacity: 0, duration: 3, ease: "power2.out" });
+gsap.fromTo("#time", { scale: 0.5 }, { scale: 1, duration: 1.5, ease: "bounce.out" });
+gsap.from(".logo__header", { x: -100, opacity: 0, duration: 3, ease: "power2.out" });
